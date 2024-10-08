@@ -3,7 +3,7 @@ import logging
 import sys
 from datetime import datetime
 from pytz import timezone
-from tripit_utils import newrelic
+from utils import newrelic
 
 
 class BaseJob:
